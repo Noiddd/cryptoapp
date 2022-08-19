@@ -14,7 +14,6 @@ const Homepage = () => {
 
   const globalStats = data?.data?.stats;
   if (isFetching) return "Loading...";
-  console.log(globalStats);
   return (
     <>
       <Title level={2} className="heading">
